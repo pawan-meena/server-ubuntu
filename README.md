@@ -1,20 +1,24 @@
+# server-ubuntu
+
 IP: 192.168.87.23
 pw: 12345678
 ------------------
 mysqlserver=======
-
 username : root
 pass : 12345678
 ------------------
 phpmyadmin==========
-
 username: phpmyadmin
 pass : 12345678
 
 ftp===============
-
 username : dmbhai
 pass     : 123456
+
+
+
+
+
 
 
 Need to know 
