@@ -1,61 +1,50 @@
 # server-ubuntu
-
 IP: 192.168.87.23
-
 pw: 12345678
-
 ------------------
-
 mysqlserver=======
-
 username : root
-
 pass : 12345678
-
 ------------------
-
 phpmyadmin==========
-
 username: phpmyadmin
-
 pass : 12345678
 
 ftp===============
-
 username : dmbhai
+pass     : 123456
 
-pass     : 123456
 
-Need to know 
 
+
+
+
+
+Need to know 
 - how to expand disk
-
 - how to change password in ftp, mysql,linux
 
-linux=======
+guide for how to change password in ftp, mysql,linux
 
+linux=======
 https://www.names.co.uk/support/articles/changing-your-root-password-on-an-ubuntu-server/
 
 mysql=========
-
 sudo mysql -u root -p
-
-then 
-
+then 
 enter current pass
-
 after login
-
-run this 
-
+run this 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';
 
-then 
 
+then 
 exit;
 
 ftp==========
-
 login root
-
 sudo passwd username
+
+hard disk ====
+sudo df -h
+expand : https://www.makeuseof.com/extend-logical-volumes-lvm-ubuntu-server/
